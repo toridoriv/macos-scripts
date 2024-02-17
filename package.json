@@ -1,0 +1,34 @@
+{
+  "name": "@toridoriv/macos-scripts",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Scripting tools for MacOS management.",
+  "author": {
+    "name": "Victoria Rodriguez",
+    "email": "vrodriguezfe@icloud.com",
+    "url": "https://github.com/toridoriv"
+  },
+  "license": "GPLv3",
+  "homepage": "https://github.com/toridoriv/macos-scripts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toridoriv/macos-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toridoriv/macos-scripts/issues",
+    "email": "vrodriguezfe@icloud.com"
+  },
+  "scripts": {
+    "start": "node bin/macoscript.js"
+  },
+  "devDependencies": {
+    "@toridoriv/eslint-config": "github:toridoriv/eslint-config",
+    "@types/shelljs": "^0.8.15",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.32.14",
+    "@toridoriv/cliffy": "github:toridoriv/cliffy",
+    "shelljs": "^0.8.5"
+  }
+}
